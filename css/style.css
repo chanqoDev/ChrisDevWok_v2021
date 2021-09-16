@@ -1,0 +1,47 @@
+ * body {
+    margin : 0; 
+}     
+ 
+ul {
+    list-style: none;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.logoImg {
+    height: 400px;
+    width:  400px;
+    background-color: aquamarine;
+}
+img:hover {
+    background-color: aqua;
+}
+div {
+    display: block;
+    background-color: powderblue;
+}
+
+/* Nasa Fetched Data Description */
+.container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem; 
+    border: 4px;
+  }
+  
+  .picture-explanation-container {
+    display: flex;
+  }
+  
+  #picture {
+    width: 50%;
+    margin-right: 1rem;
+  }
+  
+  #explanation {
+    letter-spacing: 0px;
+    line-height: 20px;
+  }
