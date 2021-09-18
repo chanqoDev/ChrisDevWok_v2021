@@ -1,14 +1,17 @@
- *   { 
-    margin : 0; 
-    padding: 0; 
-    font-family: "rubik", san-serif; 
-}   
+ /* *   { 
+}    */
 
 body {
   max-width:100%; 
+  margin : 0; 
+  padding: 0; 
+  font-family: "rubik", san-serif; 
+  line-height: 1.8;
 }
  
-
+.text-center {
+  text-align: center !important;
+}
 
 .rounded-circle {
     border-radius: 50%!important;
@@ -22,9 +25,7 @@ body {
 img:hover {
     background-color: aqua;
 }
-/* div {
-    display: block;
-} */
+ 
 
 /* Nasa Fetched Data Description */
 .container {

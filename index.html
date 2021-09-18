@@ -13,16 +13,14 @@
 
     <title> Christian GitHub Portfolio</title>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target="navbar" data-offset="50">
 
+    <!-- navigation bar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            
           <div class="animated-icon1"><span></span><span></span><span></span><p style="padding-left: 50px;">Menu</p></div>
         </button>
-        
-
         <!-- navbar-collapse  -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
@@ -43,28 +41,33 @@
 
         
  
-    <div>
-        <main class="container">
-              
+    <div class="text-center jumbotron jumbotron-fluid" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fihaveapc.com%2Fwp-content%2Fuploads%2F2011%2F05%2FSpace-HD-Wallpaper-003.jpg&f=1&nofb=1')">
+        // Nasa Image, and Description
+        <main class="container-fluid">
             <h1>NASA's Astronomy Picture of the Day</h1>
-
-        <p id="date"></p>
+            <p id="date"></p>
             <h2 id="title"></h2>
             <section class="picture-explanation-container"> 
                 <img src="" id="picture" alt="Astronomy by NASA" /> 
                 <p id="explanation"></p>
             </section>
         </main>
-
-    <img src="/Users/chanqogetter/Desktop/chrisDevwokPortfolio/assets/me-Circle.png"> 
-        <h1> Christian A. Elena</h1>
-        <p> Software Engineer | Life Long Learner | A.I Enthusiast </p> <br> 
-        <!-- Button --> 
-        <button type="button" class="btn btn-primary">More about Me</button>
-        <p> a short bio about me will go here.... </p>
+        <div class="container" style="color:white">
+            <img src="assets/me-Circle.png"> 
+             <h1> Christian A. Elena</h1>
+             <p> Software Engineer | Life Long Learner | A.I Enthusiast </p> <br> 
+             <!-- Button --> 
+             <button type="button" class="btn btn-primary">More about Me</button>
+        </div>
     </div>
+    <h6 id="aboutMe"> a short bio about me will go here.... </h6>
+    
+    
+    
+    
+    
 
-        <h2> Selected Work Experience </h2>
+        <h2 id="work"> Selected Work Experience </h2>
     <small> Please see my <a href="#">LinkedIn</a> for full Past Job Experience</small>
 
          <img src="assets/termota-logo.png" class="logoImg" alt="Termota Company Logo">
@@ -74,10 +77,10 @@
 
         <p>Arcu risus quis varius quam quisque id diam vel. Tellus at urna condimentum mattis pellentesque id. Vitae congue mauris rhoncus aenean. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Justo laoreet sit amet cursus sit amet dictum. Ut consequat semper viverra nam libero. </p> 
  
-        <h2> Projects </h2>
+        <h2 id="projects"> Projects </h2>
        <!-- upload images and description of each listed project  -->
         
-       <h3>Coonect with me </h3> 
+       <h3 id="Contact">Coonect with me </h3> 
        <!-- add Contact form  -->
        First Name: 
        Last Name:
