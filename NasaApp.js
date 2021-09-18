@@ -18,5 +18,6 @@ const displayData = (data) => {
   document.getElementById("title").textContent = data.title;
   document.getElementById("date").textContent = data.date;
   document.getElementById("picture").src = data.hdurl;
+  document.getElementById("NasaImageUrl").src = data.url;
   document.getElementById("explanation").textContent = data.explanation;
 };
