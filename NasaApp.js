@@ -19,8 +19,8 @@ fetchNASAData();
 /* <div class="jumbotron jumbotron-fluid nasa-container"> */
 
 const displayData = (data) => {
-  document.getElementById("title").textContent = data.title;
-  document.getElementById("date").textContent = data.date;
+  // document.getElementById("title").textContent = data.title;
+  // document.getElementById("date").textContent = data.date;
   document.getElementById("picture").src = data.hdurl;
-  document.getElementById("explanation").textContent = data.explanation;
+  // document.getElementById("explanation").textContent = data.explanation;
 };
