@@ -14,8 +14,7 @@
     <title> Christian GitHub Portfolio</title>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-  
-  <section id="title">
+  <section id="title" class="bg-light">
   <!-- navigation bar -->
   <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
     <div class="container-fluid">
@@ -25,10 +24,10 @@
       <!-- navbar-collapse  -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <a class="navbar-brand" href="https://github.com/chanqoDev" target="_blank"><img src="assets/mark-github.svg" width="35" height="35" alt="Logo"> ChrisDevwok</a>
+          <a class="navbar-brand" href="#title"><img src="assets/mark-github.svg" width="35" height="35" alt="Logo"> ChrisDevwok</a>
         </ul>
         <ul class="navbar-nav mr-right">
-          <li class="nav-item"><a class="nav-link"  href="#aboutMe">About Me<span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link"  href="#about-section">About Me<span class="sr-only">(current)</span></a></li>
           <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -38,6 +37,9 @@
     </div>
   </nav>
 
+
+
+  
     <div class="jumbotron jumbotron-fluid nasa-container">
         <!-- // Nasa Api ids and fetched data, Nasa Image, and Description -->
         <!-- <img src="" id="picture" alt="Astronomy by NASA" /> -->
@@ -56,44 +58,151 @@
              <button type="button" class="btn btn-primary">More about Me</button>
      </div>
 
-      <section  class="container-fluid" id="aboutMe" style="background-color:#141615; color:whitesmoke" > 
-         <div class="container mx-auto p-4">
-          <h6> Hey there! I'm Christian, a Software Engineer and Fullstack Developer </h6>
-          <br /> 
+      <section  class="container text-align"  id="about-section" style="background-color: #10100e; color:#dcdde1" > 
+         <div class="container d-flex align-items-center p-5">
+          <h2 class="mb-4"> Hey there! I'm Christian, a Software Engineer and Fullstack Developer </h2>
+        
           <p> "But I must explain to you how all this mistaken idea of denouncing pleasure and praising 
-             was born and I will give you a complete account of the system, and expound the actual teachings 
+             was born and I will give you a cosmplete account of the system, and expound the actual teachings 
              of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to 
             find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
           </p>
-        
-         </div>
+         </div> 
       </section> 
   
     
   
-      <section id="work"> 
-      <div class="container-lg"> 
-         <h2> Selected Work Experience </h2>
-         <h6> Please see my <a href="#">LinkedIn</a> for full Past Job Experience</h6>
-         <img src="assets/termota-logo.png" class="companyLogo" alt="Termota Logo">
-         <p>Arcu risus quis varius quam quisque id diam vel. Tellus at urna condimentum mattis pellentesque id. Vitae congue mauris rhoncus aenean. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Justo laoreet sit amet cursus sit amet dictum. Ut consequat semper viverra nam libero. </p> 
+      <section id="work" class="bg-light"> 
+      <div class="container container-xxlg p-5 content"> 
+        <div class="row no-gutters bg-black mb-5 mb-lg-0 work-title">
+          <div class="workpadding"> 
+            <h2> Selected Work Experience </h2>
+            <br> 
+            <h6> Please see my <a href="#">LinkedIn</a> for full Past Job Experience</h6>
+          </div>
+        </div>
 
-         <img src="assets/elbowAutoDetail.png" class="companyLogo" alt="Elbow Auto Detail Logo">
-         <p>Arcu risus quis varius quam quisque id diam vel. Tellus at urna condimentum mattis pellentesque id. Vitae congue mauris rhoncus aenean. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Justo laoreet sit amet cursus sit amet dictum. Ut consequat semper viverra nam libero. </p> 
-         
-         <img src="assets/Garbagedash.png" class="companyLogo" alt="Garbagedash Logo">
-         <p>Arcu risus quis varius quam quisque id diam vel. Tellus at urna condimentum mattis pellentesque id. Vitae congue mauris rhoncus aenean. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Justo laoreet sit amet cursus sit amet dictum. Ut consequat semper viverra nam libero. </p> 
 
-         <img src="assets/IrvineChiropractor.png" class="companyLogo" alt="Irvine Chiropractor">
-         <p>Arcu risus quis varius quam quisque id diam vel. Tellus at urna condimentum mattis pellentesque id. Vitae congue mauris rhoncus aenean. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Justo laoreet sit amet cursus sit amet dictum. Ut consequat semper viverra nam libero. </p> 
-
-         <img src="assets/transintl.png" class="companyLogo" alt="transintl">
-         <p>Arcu risus quis varius quam quisque id diam vel. Tellus at urna condimentum mattis pellentesque id. Vitae congue mauris rhoncus aenean. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Justo laoreet sit amet cursus sit amet dictum. Ut consequat semper viverra nam libero. </p> 
-
-         <!-- <img src="assets/termota-logo.png" class="companyLogo" alt="Termota Company Logo">
-         <img src="assets/termota-logo.png" class="companyLogo" alt="Termota Company Logo">
-         <img src="assets/termota-logo.png" class="companyLogo" alt="Termota Company Logo"> -->
+  <!-- Garbage Dash Image -->
+  <div class="row justify-content-center bg-black mb-5 mb-lg-0 no-gutters">
+    <div class="col-lg-2 text-center"> 
+     <img src="assets/Garbagedash.png" class="companyLogo" alt="Garbagedash LLC, Logo">
+    </div>
+   <!-- Garbage Dash Description -->
+    <div class="col-lg-10">
+     <div class="bg-black text-center h-100"> 
+     <div class="d-flex h-100">
+       <div class="w-100 my-auto text-center text-lg-left">
+         <div class="workpadding"> 
+           <h4> Garbagedash LLC </h4>
+           <h5> Software Engineer, Fullstack Developer </h5>
+           <p> Mar 2019 - Jan 2021 </p>
+           <ul class="mb-0 text-white-50"> 
+             <li> "UX/UI design to using Swift OOP language and MVC architectural pattern." </li>
+           </ul>
+         </div>
+       </div>
      </div>
+    </div>
+  </div>
+
+
+         <!-- Elbow Auto Detail Image  -->
+         <div class="row justify-content-center bg-black mb-5 mb-lg-0 no-gutters">
+          <div class="col-lg-2 text-center"> 
+           <img src="assets/elbowAutoDetail.png" class="companyLogo" alt="Elbow Auto Detail Logo">
+          </div>
+         <!-- Elbow Auto Detail Detail  -->
+          <div class="col-lg-10">
+           <div class="bg-black text-center h-100"> 
+           <div class="d-flex h-100">
+             <div class="w-100 my-auto text-center text-lg-left">
+               <div class="workpadding"> 
+                 <h4> Elbow Grease Auto Detail </h4>
+                 <h5> Software Developer </h5>
+                 <p> Mar 1018 - Aug 2019 </p>
+                 <ul class="mb-0 text-white-50"> 
+                   <li> "Successfully communicate with Stakeholders and the Web Development Team to ensure project delivery. Excellent organizational, project management, and time management skills while developing high-quality mockups and prototypes" </li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+          </div>
+        </div> 
+
+
+        
+           <!-- Diamond Termite Image-->
+           <div class="row justify-content-center bg-black mb-5 mb-lg-0 no-gutters">
+            <div class="col-lg-2 text-center"> 
+             <img src="assets/termota-logo.png" class="companyLogo" alt="Diamond Termite Logo">
+            </div>
+            <!-- Diamond Termite Description-->
+            <div class="col-lg-10">
+             <div class="bg-black text-center h-100"> 
+             <div class="d-flex h-100">
+               <div class="w-100 my-auto text-center text-lg-left">
+                 <div class="workpadding"> 
+                   <h4> Diamond Termite Inc. </h4>
+                   <h5> Web Developer </h5>
+                   <p> Mar 1018 - Aug 2019 </p>
+                   <ul class="mb-0 text-white-50"> 
+                     <li> "Developed the site from Framework to Mockups and Delivery." </li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+            </div>
+          </div> 
+
+
+         <!--  Irvine Chiropractor Image -->
+         <div class="row justify-content-center bg-black mb-5 mb-lg-0 no-gutters">
+          <div class="col-lg-2 text-center"> 
+           <img src="assets/IrvineChiropractor.png" class="companyLogo" alt="Irvine Chiropractor, Logo">
+          </div>
+         <!--  Irvine Chiropractor Description -->
+          <div class="col-lg-10">
+           <div class="bg-black text-center h-100"> 
+           <div class="d-flex h-100">
+             <div class="w-100 my-auto text-center text-lg-left">
+               <div class="workpadding"> 
+                 <h4> Irvine Chiropractor </h4>
+                 <h5> Freelance Website </h5>
+                 <p> Apr 2017 - Sept 2017 </p>
+                 <ul class="mb-0 text-white-50"> 
+                   <li> "Setup a custom and install the theme in WordPress CMS, Install and update Plugins, SEO, Developed content and Layout design using CSS, JQuery, Javascript." </li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+          </div>
+        </div>
+
+
+        <!-- Transintl Image -->
+              <div class="row justify-content-center bg-black mb-5 mb-lg-0 no-gutters">
+                <div class="col-lg-2 text-center"> 
+                 <img src="assets/transintl.png" class="companyLogo" alt="Transintl LLC, Logo">
+                </div>
+               <!--  Trasintl Description -->
+                <div class="col-lg-10">
+                 <div class="bg-black text-center h-100"> 
+                 <div class="d-flex h-100">
+                   <div class="w-100 my-auto text-center text-lg-left">
+                     <div class="workpadding"> 
+                       <h4>Transintl.com</h4>
+                       <h5> Freelance - Web Developer </h5>
+                       <p> Mar 2016 - Nov 2016 </p>
+                       <ul class="mb-0 text-white-50"> 
+                         <li> "Provided UX Design, Graphics, logo Restoration, Mockups, Frame-wires and delivered a user-friendly responsive layout for the E-commerce site." </li>
+                       </ul>
+                     </div>
+                   </div>
+                 </div>
+                </div>
+              </div>
+      </div>
     </section>
 
      <section id="projects">
@@ -142,6 +251,7 @@
             $('.animated-icon1').toggleClass('open');
           });
         });
+        
       </script>
 </body>
 </html>

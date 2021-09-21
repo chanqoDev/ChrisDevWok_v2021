@@ -1,10 +1,7 @@
 *   { 
   margin:0; 
 }   
-
-/* .my-0 {
-  padding-top: 0 !important;
-} */
+  
 
 body {
   max-width:100%; 
@@ -16,21 +13,30 @@ body {
  
 .text-center {
   text-align: center !important;
-}
-
-.rounded-circle {
-    border-radius: 50%!important;
-    
-}
+} 
 
 .companyLogo {
-    height: 200px;
-    width:  200px;
+    height: 125px;
+    width:  125px;
     border-radius: 50%!important; 
-    background-color: antiquewhite;
+    background-color: white;
+    border: 2px solid;
 }
+.workpadding {
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left!important;
+
+}
+
+
 img:hover {
- 
+ /* Start the shake animation and make the animation last for 0.5 seconds */
+ animation: shake 0.5s;
+
+ /* When the animation is finished, start again */
+ animation-iteration-count: infinite;
 }
 .btn:hover {
   box-shadow:
@@ -48,11 +54,10 @@ img:hover {
 .nasa-container {
     margin: 0 auto;
     text-align: center;
-
     background-image: url("https://apod.nasa.gov/apod/image/2109/RubinsGalaxy_hst2000.jpg"); 
     background-repeat: no-repeat; 
     background-size: cover;
-    color: wheat; 
+    color: #dcdde1; 
   }
   
   .picture-explanation-container {
@@ -61,15 +66,28 @@ img:hover {
   }
   
   #picture {
-    width: 100%;
+    max-width: 100%;
   }
   
   #explanation {
     letter-spacing: 0px;
     line-height: 20px;
   }
-
-
+  #about-section{
+    max-width: 100%; 
+  }
+  
+  /* Work Experience section  */
+.content {
+  background: black;
+  color: #dcdde1; 
+  margin-top: 5rem;
+}
+.workpadding {
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 /* Animated Icon 1 */
 .animated-icon1 {
@@ -142,3 +160,32 @@ img:hover {
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
+
+
+/* Shake animation for image hover  */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  /* 30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); } */
+}
+
+
+
+/* Media Queries  */
+
+@media (max-width: 992px) {
+  .workpadding {
+    padding: 40px 20px; 
+    text-align: center!important;
+  }
+}
+
+ 
