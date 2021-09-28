@@ -24,3 +24,8 @@ const displayData = (data) => {
   document.getElementById("picture").src = data.hdurl;
   // document.getElementById("explanation").textContent = data.explanation;
 };
+
+// set up the Date dynamically
+const currentYear = new Date();
+const year = currentYear.getFullYear();
+document.getElementById("year").append(year);
