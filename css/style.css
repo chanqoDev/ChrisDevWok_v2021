@@ -79,6 +79,17 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+
+.row.align-items-md-stretch{
+  display: flex; 
+  padding:20px;
+}
+
+.bg-dark {
+  background-color: #1e272e;
+}
+
 #contact-section {
   background: #fff url('../assets/Nasa_Moon.jpg') no-repeat center bottom;
   color: #dcdde1;
@@ -105,10 +116,16 @@ body {
 .rounded {
   border-radius: 0.5rem!important;
 }
-
-img:hover {
-  
+img {
+  transition: transform 450ms;
+  max-width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
+img:hover {
+  transform: scale(1.09);
+}
+
 
 /* Button Glow Effect  */
 .btn:hover {
@@ -197,11 +214,6 @@ img:hover {
   transform: rotate(-135deg);
 }
 
-
- 
-
-
-
 /* Media Queries  */
 
 @media (max-width: 992px) {
@@ -222,6 +234,9 @@ img:hover {
     padding: 40px 20px;
     text-align: center!important;
   }
+  .row.align-items-md-stretch{
+  display: flex;
+}
  
 }  
 
