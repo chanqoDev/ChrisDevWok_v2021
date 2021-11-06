@@ -43,8 +43,20 @@ body {
     background-size: cover;
     color: #dcdde1;
     object-fit: contain;
-   
   }
+  /* align-items: flex-start;  */
+
+
+.techIcon{
+  width : 40px;
+  height : 40px;
+  margin: 10px 4px 18px 20px;  
+  display: inline-block;
+  object-fit: contain;
+  width: 100%; 
+}
+
+
 
   .picture-explanation-container {
     display: flex;
