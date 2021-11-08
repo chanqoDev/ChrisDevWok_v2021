@@ -33,7 +33,7 @@ text-align: center;
   text-align: left!important;
 }
 
-.mep{
+.pxlr-0{
   padding-left: 0;
   padding-right: 0;
 }
@@ -62,8 +62,6 @@ text-align: center;
   object-fit: contain;
   width: 100%; 
 }
-
-
 
   .picture-explanation-container {
     display: flex;
@@ -102,7 +100,6 @@ text-align: center;
 
 .row.align-items-md-stretch{
   display: flex; 
-  padding:20px;
 }
 
 .bg-dark {
@@ -140,11 +137,25 @@ img {
   max-width: 100%;
   height: 100%;
   cursor: pointer;
+  overflow: hidden;
 }
+ 
+
 img:hover {
-  transform: scale(1.09);
+  transform: scale(1.08);
+   
+}
+ /* this will add a cool border with shadow effects  */
+#upgrade {
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73%) 0px 16px 10px; 
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  border: 3px solid rgba(249, 249, 249, 0.1);
+  border-radius:10px;
 }
 
+.img-fluid:hover {
+  transform: scale(1.04);
+}
 
 /* Button Glow Effect  */
 .btn:hover {
@@ -246,6 +257,7 @@ img:hover {
   .workpadding {
     padding: 40px 20px;
     text-align: center!important;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -265,7 +277,7 @@ img:hover {
     align-items: stretch!important;
 }
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
 }
   
