@@ -267,11 +267,21 @@ img:hover {
     padding: 40px 20px;
     text-align: center!important;
   }
+
+  /* h1 {
+    font-size: large
+  } */
+
   .row.align-items-md-stretch{
   display: flex;
 }
- 
-}  
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+
+}
 
 @media (min-width: 768px) {
 
