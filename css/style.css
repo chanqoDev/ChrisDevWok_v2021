@@ -83,8 +83,10 @@ text-align: center;
   max-width: 100%;
   padding:0%; 
   color: #dcdde1;
+  background-color: #1e272e;
   }
 
+ 
   /* Work Experience section  */
 .content {
   background: #1e272e;
@@ -104,7 +106,7 @@ text-align: center;
 }
 
 .bg-dark {
-  background-color: #1e272e;
+  background-color: #1e272e!important;
 }
 
 #contact-section {
@@ -266,11 +268,19 @@ img:hover {
   .workpadding {
     padding: 40px 20px;
     text-align: center!important;
+    font-size: 14px;
+    color: #dcdde1;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 20px;
   }
 
-  /* h1 {
-    font-size: large
-  } */
+.picture-explanation-container > p { 
+  font-size: 12px;
+  
+}
+
+
 
   .row.align-items-md-stretch{
   display: flex;
