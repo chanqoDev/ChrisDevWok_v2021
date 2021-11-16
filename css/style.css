@@ -135,6 +135,7 @@ text-align: center;
 .rounded {
   border-radius: 0.5rem!important;
 }
+ 
 img {
   transition: transform 450ms;
   max-width: 100%;
@@ -261,8 +262,16 @@ img:hover {
   .workpadding {
     padding: 40px 20px;
     text-align: center!important;
-    font-size: 16px;
   }
+ 
+  h2  {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+  
 }
 @media screen and (max-width: 576px) {
   .workpadding {
@@ -270,26 +279,33 @@ img:hover {
     text-align: center!important;
     font-size: 14px;
     color: #dcdde1;
+    color: #212529
   }
-  h1, h2, h3, h4, h5, h6 {
+ 
+  body {
+   color: #dcdde1;
+ }
+
+h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
-  }
+    color: #dcdde1;
+}
 
 .picture-explanation-container > p { 
-  font-size: 12px;
-  
+  font-size: 12px; 
 }
 
+ 
 
 
-  .row.align-items-md-stretch{
+.row.align-items-md-stretch{
   display: flex;
 }
+
 .img-fluid {
   width: 100%;
   height: 100%;
 }
-
 
 }
 
