@@ -51,24 +51,57 @@ text-align: center;
     background-size: cover;
     color: #dcdde1;
     object-fit: contain;
+    /* position:relative; */
   }
-
+ 
+.card-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+}
+.card-img:hover {
+  cursor: default;
+  transition: none;
+  transform: none;
+  box-shadow: none;
+}
 
 .techIcon{
   width : 40px;
   height : 40px;
-  margin: 10px 4px 18px 20px;  
+  /* top-right-bottom-left.  */
+  margin: 10px 0 18px 0px;  
   display: inline-flex;
   object-fit: contain;
   width: 100%; 
-  margin:4px
 }
 
   .picture-explanation-container {
     display: flex;
     color: wheat;
   }
+.rockhillbtn {
+  background-color: #dcdde1;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+}
 
+
+}
   #picture {
     max-width: 100%;
   }
@@ -142,12 +175,14 @@ img {
   height: 100%;
   cursor: pointer;
   overflow: hidden;
-  margin-right:3px
+  margin-right:3px;
 }
  
-
 img:hover {
   transform: scale(1.03);
+  border-color: rgba(249, 249, 249, 0.8); 
+  border-radius: 7px;
+  box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px, rgb(0 0 0 / 72%) 0px 30px 22px -10px;
 }
  /* this will add a cool border with shadow effects  */
 #upgrade {
