@@ -6,7 +6,6 @@ body {
   line-height: 1.8;
 }
 
-
 .text-center {
   text-align: center !important;
 }
@@ -67,6 +66,30 @@ text-align: center;
   box-shadow: none;
 }
 
+ #right-panel-link:hover {
+  box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px rgb(255, 255, 255), 0 0 102px #596670, 0 0 151px #1e272e;
+ }
+
+#right-panel-link {
+  position: relative;
+  background-color: #dcdde1;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+}
+
+
 .techIcon{
   width : 40px;
   height : 40px;
@@ -81,27 +104,9 @@ text-align: center;
     display: flex;
     color: wheat;
   }
-.rockhillbtn {
-  background-color: #dcdde1;
-  color: #000;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 5px;
-  margin: 10px;
-  cursor: pointer;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-}
+  
+ 
 
-
-}
   #picture {
     max-width: 100%;
   }
