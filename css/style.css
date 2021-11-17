@@ -66,11 +66,11 @@ text-align: center;
   box-shadow: none;
 }
 
- #right-panel-link:hover {
+ #whitebtn:hover {
   box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px rgb(255, 255, 255), 0 0 102px #596670, 0 0 151px #1e272e;
  }
 
-#right-panel-link {
+#whitebtn {
   position: relative;
   background-color: #dcdde1;
   color: #000;
@@ -87,6 +87,9 @@ text-align: center;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -ms-transition: all 0.5s;
+  justify-content: center;
+  align-self: center;
+    
 }
 
 
@@ -336,6 +339,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
  
+
+
 
 
 .row.align-items-md-stretch{
