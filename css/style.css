@@ -66,37 +66,10 @@ text-align: center;
   box-shadow: none;
 }
 
- #whitebtn:hover {
-  box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px rgb(255, 255, 255), 0 0 102px #596670, 0 0 151px #1e272e;
- }
-
-#whitebtn {
-  position: relative;
-  background-color: #dcdde1;
-  color: #000;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  justify-content: center;
-  align-self: center;
-    
-}
 
 
 .techIcon{
-  width : 40px;
   height : 40px;
-  /* top-right-bottom-left.  */
   margin: 10px 0 18px 0px;  
   display: inline-flex;
   object-fit: contain;
@@ -125,6 +98,7 @@ text-align: center;
   padding:0%; 
   color: #dcdde1;
   background-color: #1e272e;
+  justify-content: center;
   }
 
  
