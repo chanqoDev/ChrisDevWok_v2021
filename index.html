@@ -71,7 +71,7 @@
         <p>I really enjoy problem solving and growing everyday in my skills to becoming a great developer!
           I get the most excited when I am collaborating with a team of talented people who are passionate and striving to becoming great at what they do.  
         </p>
-        <p> I am a father of two boys and I really enjoy going to Beach at night. </p>
+        <p> I am a father of twoBoys{name: "chris", age: 3, name: "Neutron", age: 8}</p>
         <hr id="divider">
       </div>
     </section>
@@ -228,7 +228,7 @@
                               <p> Mar 2016 - Nov 2016 </p>
                               <span class="mb-0 text-white-50">
                                 <p> "Provided UX Design, Graphics, logo Restoration, Mockups, Frame-wires and delivered a user-friendly responsive layout for the E-commerce site."</p>
-                                <a class="btn btn-secondary ml-2"  target="_blank" href="https://www.transintl.com/" role="button">Visit Site</a>
+                                <a class="btn btn-secondary ml-2"  target="_blank" href="https://www.transintl.com/mac-memory/" role="button">Visit Site</a>
                               </span>
                             </div>
                           </div>
@@ -259,6 +259,7 @@
             <div class="h-100 p-5 text-light bg-dark">
               <h2>To-Do Rocket Planner</h2>
               <p>Download To-Do Rocket List Chrome Extension Application. Today! Maximize your productivity time.</p>
+              <p><code>chrome.storage</code> API to store, retrieve, and track changes to user data. </p>
               <div class="container p-0">
                 <div class="techIcon mx-0">
                   <img src="/assets/chromeWebStore.png" alt="chrome Webstore  Logo">
@@ -314,6 +315,11 @@
               <h2>Stripe API Monetization and Meter Billing</h2>
               <p>Build an API to Subcribe user and Collect reocurring payments, by building an API with Express,
                 integrate Stripe Metered Billing.</p>
+                <p> Create an API
+                  Subscribe a customer to a recurring subscription in Stripe
+                  Create custom API keys to authenticate requests to the API
+                  Report API usage to Stripe
+                </p>                  
               <div class="techIcon">
                 <img src="/assets/HTML5.png" alt="HTML5 Logo">
                 <img src="/assets/javascript.png" alt="javascript Logo">
@@ -419,6 +425,7 @@
               <p>Google Maps Store Locator, allows user to find a list of all the stores near by using the users
                 zipcode.
               </p>
+              
               <div class="techIcon">
                 <img src="/assets/Firebase_Icon.png" alt="Firebase Logo">
                 <img src="/assets/MongoDB-Icon.png" alt="Firebase Logo">
@@ -518,22 +525,25 @@
   <!-- add social media icons, handles, set dynamic Date, Copyright , Local weather Info -->
   <!-- Footer -->
   <footer class="footer-section" id="footer">
-    <section="contact-section">
-      <div class="container-fluid" id="contact-section">
+    <section class="contact-section">
+      <hr class="border-bottom" />
+      <div class="container-fluid banner_fadeBottom" >
         <div class="container-fluid">
-          <a href=""><i class="social-icon fab fa-twitter"></i></a>
-          <a href=""><i class="social-icon fab fa-facebook-f"></i></a>
-          <a href=""><i class="social-icon fab fa-instagram"></i></a>
-          <a href=""><i class="social-icon fas fa-envelope"></i></a>
-          <p>© Copyright <span id="year"></span> ChrisDevwok</p>
+          <h3 id="contact"> Contact with me </h3> 
+           
+             
+              <img src="assets/devFest21.jpg" alt="DevFest2021 Image of me" width="150px" height="100px">
+             
+         
+          
+          <a href=""><i class="social-icon fab fa-2x fa-instagram"></i></a>
+          <a href=""><i class="social-icon fas fa-2x fa-envelope"></i></a>
         </div>
-
-        <h3 id="contact"> Contact with me </h3>
-        <!-- add Contact form  -->
-        
-        <button class="btn btn-primary">Submit</button>
+                      <!-- Yes, date is set Dynamically :)  -->
+        <p class="ml-3 pb-2"><span id="year"></span> Copyright &copy; ChrisDevwok.com</p>
       </div>
-  </section>
+    </section>
+    <!-- add Contact form "very soon" -->
   </footer>
 
   <script type="text/javascript" src="config.js"></script>
@@ -549,7 +559,6 @@
   </script>
   <script src="NasaApp.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
   <script>
     $(document).ready(function () {
       // Hide/show animation hamburger function
