@@ -8,6 +8,7 @@ Projects will include recent builds utilizing React Javascript Library and other
 
 \*\* Stay Tuned for updates on most recent build projects and tech.
 
-### live Preview availabler
+### live Preview
 
-('https://chanqodev.github.io/ChrisDevWok_v2021/')
+Visit Link:
+https://chanqodev.github.io/ChrisDevWok_v2021/
