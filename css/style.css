@@ -315,7 +315,9 @@ img:hover {
 
   
 }
+
 @media screen and (max-width: 576px) {
+ 
   .workpadding {
     padding: 40px 20px;
     text-align: center!important;
@@ -324,12 +326,12 @@ img:hover {
     color: #212529
   }
  
-  body {
-   color: #dcdde1;
- }
+.blk-Title {
+  color: #212529
+}
 
 h1, h2, h3, h4, h5, h6 {
-    font-size: 20px;
+    font-size: 25px;
     color: #dcdde1;
 }
 
@@ -337,6 +339,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px; 
 }
 
+.pt-2 {
+  font-size: 30px;
+}
 
 
 
