@@ -10,4 +10,4 @@ Projects will include recent builds utilizing React Javascript Library and other
 
 ### live Preview availabler
 
-![https://chanqodev.github.io/ChrisDevWok_v2021/]('https://chanqodev.github.io/ChrisDevWok_v2021/')
+('https://chanqodev.github.io/ChrisDevWok_v2021/')
