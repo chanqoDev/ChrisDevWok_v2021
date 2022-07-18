@@ -12,3 +12,6 @@ Projects will include recent builds utilizing React Javascript Library and other
 
 Visit Link:
 https://chanqodev.github.io/ChrisDevWok_v2021/
+
+Visit updated Resume 2022: 
+https://sugary-dark-coffee.netlify.app/
